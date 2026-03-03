@@ -4,16 +4,6 @@
 
 Welcome! Your Spring Boot Orders API now has full Swagger/OpenAPI documentation support. Here's where to find everything:
 
-### Quick Navigation
-
-| Document | Purpose | Read Time |
-|----------|---------|-----------|
-| **[QUICK_START.md](./QUICK_START.md)** | Get started in 5 minutes | ⏱️ 5 min |
-| **[CHANGES_SUMMARY.md](./CHANGES_SUMMARY.md)** | See what was changed | ⏱️ 10 min |
-| **[SWAGGER_SETUP.md](./SWAGGER_SETUP.md)** | Complete setup reference | ⏱️ 15 min |
-| **[OPENAPI_EXAMPLES.md](./OPENAPI_EXAMPLES.md)** | Code examples for common patterns | ⏱️ 20 min |
-
----
 
 ## 🚀 Getting Started (30 seconds)
 
@@ -50,10 +40,6 @@ http://localhost:8080/swagger-ui.html
 
 ### Files Created
 - ✅ `OpenApiConfig.java` - OpenAPI configuration bean
-- ✅ `QUICK_START.md` - Quick start guide
-- ✅ `CHANGES_SUMMARY.md` - What changed and why
-- ✅ `SWAGGER_SETUP.md` - Complete setup guide
-- ✅ `OPENAPI_EXAMPLES.md` - Code examples
 - ✅ `README.md` - This file
 
 ---
@@ -128,16 +114,6 @@ GET /api/products
 - [ ] Test the `/api/products` endpoint
 - [ ] View the OpenAPI spec (`http://localhost:8080/v3/api-docs`)
 
-### Step 2: Understand the Setup
-- [ ] Read [QUICK_START.md](./QUICK_START.md) for overview
-- [ ] Review [CHANGES_SUMMARY.md](./CHANGES_SUMMARY.md) for what changed
-- [ ] Study [SWAGGER_SETUP.md](./SWAGGER_SETUP.md) for detailed configuration
-
-### Step 3: Learn to Add Documentation
-- [ ] Review [OPENAPI_EXAMPLES.md](./OPENAPI_EXAMPLES.md) for code patterns
-- [ ] Add documentation to new endpoints
-- [ ] Use `@Operation`, `@Schema`, `@ApiResponse` annotations
-
 ### Step 4: Customize (Optional)
 - [ ] Edit `OpenApiConfig.java` to change API metadata
 - [ ] Add authentication schemes (OAuth2, API Key, etc.)
@@ -150,10 +126,6 @@ GET /api/products
 ```
 orders/
 ├── README.md (this file)                    ← Overview and navigation
-├── QUICK_START.md                           ← Fast getting started guide
-├── CHANGES_SUMMARY.md                       ← What changed and why
-├── SWAGGER_SETUP.md                         ← Complete setup reference
-├── OPENAPI_EXAMPLES.md                      ← Code examples
 │
 ├── pom.xml (modified)                       ← Dependencies
 ├── src/main/resources/application.yaml (modified) ← Configuration
@@ -206,14 +178,6 @@ orders/
 3. Use with documentation generators like ReDoc
 ```
 
-### Add a new endpoint with documentation
-```
-1. See examples in OPENAPI_EXAMPLES.md
-2. Use @Operation, @ApiResponse, @Schema annotations
-3. Rebuild: mvn clean install
-4. Documentation updates automatically!
-```
-
 ---
 
 ## 🔍 Troubleshooting
@@ -228,11 +192,6 @@ orders/
 - ✅ Ensure methods have `@GetMapping`, `@PostMapping`, etc.
 - ✅ Check that package is scanned by Spring
 - ✅ Rebuild project: `mvn clean install`
-
-### Getting ClassNotFoundException?
-- ✅ Run `mvn clean install` to rebuild
-- ✅ Check all dependencies are downloaded
-- ✅ See [SWAGGER_SETUP.md](./SWAGGER_SETUP.md) troubleshooting section
 
 ### Documentation not updating?
 - ✅ Restart the application
@@ -311,11 +270,7 @@ mvn dependency:tree
 
 ## 🤝 Need Help?
 
-1. **Quick answer?** → Check [QUICK_START.md](./QUICK_START.md)
-2. **Setup details?** → See [SWAGGER_SETUP.md](./SWAGGER_SETUP.md)
-3. **Code examples?** → Review [OPENAPI_EXAMPLES.md](./OPENAPI_EXAMPLES.md)
-4. **What changed?** → Read [CHANGES_SUMMARY.md](./CHANGES_SUMMARY.md)
-5. **Official docs?** → Visit https://springdoc.org/
+**Official docs?** → Visit https://springdoc.org/
 
 ---
 
